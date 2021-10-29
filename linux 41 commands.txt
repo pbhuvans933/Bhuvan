@@ -1,0 +1,17 @@
+1.mkdir Test
+2.cat >employeelist
+  cat >skillset
+3.mkdir Test2
+  ls -s skillset symskillset , ls skillset hardskillset
+  rm skillset
+  A symbolic is an actual link to the original file, whereas a hard link is a mirror copy of the original file. 
+  If you delete the original file, the soft link has no value, because it points to a non-existent file.
+  But in the case of hard link, it is entirely opposite. Even if you delete the original file, 
+  the hard link will still has the data of the original file. Because hard link acts as a mirror copy of the original file.
+4.chmod g+wr test
+5.chmod g-w test
+6.chmod 0+w file1
+7.chmod 0-w file1
+8.chgrp user3 employeelist
+9.chown user5 employeelist
+10. wc -l employeelist

@@ -1,0 +1,10 @@
+•	cat >File1
+•	cat >>File1
+•	cat >File2
+•	cat File1 File2 
+•	cat File1 >File2
+•	cat File1 File2  >File3
+•	cat file1 file2 file3 file4 file5
+•	cat file1 file2 file3 file4 file5  2>errorlog
+•	cat file1 file2 file3 file4 file5 >file10 2>&1
+•	cp file1 file6  2>&errorlog
